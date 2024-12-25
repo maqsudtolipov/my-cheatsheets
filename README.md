@@ -1,6 +1,11 @@
-## Testings
+## Info
+List of quick solutions that I learned from exprience. I hope it replaces ChatGPT or Googling for things I know.
 
-### ExpressJs
+Contributions are all welcome :)
+
+# Testings
+
+## ExpressJs
 - If you are testing a route with only request body, use [supertest](https://www.npmjs.com/package/supertest)
   ```javascript
     it("it should return list of users", async () => {
